@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(23, 73, 8);
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    text-align:center;
+    margin: 1rem
+}
+
+section {
+    border: 1px solid rgb(219, 197, 98);
+}
+
+header img {
+    width: 100px;
+}
+
+section {
+    border: 1px solid rgb(219, 197, 98);
+}
+
+#bio {
+   display: flex;
+   padding: .5rem
+}
+
+.bio-choose {
+    width: 100%;
+    margin: .25rem;
+}
+
+.nameDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueText {
+    font-size: 1.3rem; 
+    color: rgb(219, 197, 98);
+    padding: .1rem;
+}
+
+.grayBox {
+    background-color: rgb(219, 197, 98);
+    margin-top: .5rem;
+}
+
+figcaption {
+    background-color: rgb(219, 197, 98);
+    text-align: center;
+    color: #0f0f0f;
+}
+
+#bio img {
+    height: 185px;
+    padding: .5rem
+}
+
+#tech {
+    /*height: 200px;*/
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+#tech img{
+    height: 155px;
+}
+
+
+
+#learn {
+    color:rgb(219, 197, 98);
+    height: 200px;
+    padding: .5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+}
